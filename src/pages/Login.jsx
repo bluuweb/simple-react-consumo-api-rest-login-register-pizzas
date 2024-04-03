@@ -5,6 +5,7 @@ import useAuthentication from "../hooks/useAuthentication";
 const LoginPage = () => {
   const { loginWithEmailAndPassword } = useContext(UserContext);
 
+  // custom hooks
   const { email, setEmail, password, setPassword, handleSubmit } =
     useAuthentication(loginWithEmailAndPassword);
 

@@ -26,15 +26,8 @@ const Details = () => {
             <ImageWithLoading
               img={pizza.img}
               className="img-fluid rounded-start h-100"
-              height={350}
+              height={400}
             />
-            {/* {!imageLoaded && <p>Cargando...</p>}
-            <img
-              src={pizza.img}
-              className="img-fluid rounded-start h-100"
-              alt={pizza.name}
-              onLoad={handleImageLoaded}
-            /> */}
           </div>
           <div className="col-md-6">
             <div className="card-body">

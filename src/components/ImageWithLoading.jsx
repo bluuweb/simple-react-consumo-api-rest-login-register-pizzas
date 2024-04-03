@@ -6,7 +6,7 @@ import PropTypes from "prop-types";
 export const ImageWithLoading = ({
   img,
   className,
-  height = 200,
+  height = 250,
   alt = "img",
 }) => {
   // Custom hook
